@@ -25,7 +25,7 @@ public class TC001GetAPI {
 		int statusCode = response.getStatusCode();
 		
 		System.out.println(response.getStatusLine());
-		//System.out.println(statusCode);
+		System.out.println(statusCode);
 		
 		Assert.assertEquals(statusCode, 200);
 		
