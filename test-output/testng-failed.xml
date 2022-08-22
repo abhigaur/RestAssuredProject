@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataDrivenpack.PostAPIWithMultipleDataSet">
+      <class name="rahulShettyBasic.SubsequentCall">
         <methods>
-          <include name="signUPwithDataDriven" invocation-numbers="3"/>
+          <include name="getTestSeries"/>
         </methods>
-      </class> <!-- dataDrivenpack.PostAPIWithMultipleDataSet -->
+      </class> <!-- rahulShettyBasic.SubsequentCall -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
