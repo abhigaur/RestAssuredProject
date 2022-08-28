@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="rahulShettyBasic.SubsequentCall">
+      <class name="pojoRahulShetty.PostAPIUsingPojoClass">
         <methods>
-          <include name="getTestSeries"/>
+          <include name="testPostAPI"/>
         </methods>
-      </class> <!-- rahulShettyBasic.SubsequentCall -->
+      </class> <!-- pojoRahulShetty.PostAPIUsingPojoClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
